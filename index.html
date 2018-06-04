@@ -44,7 +44,7 @@ function MM_swapImage() { //v3.0
 }
 </script>
 </head>
-<body onLoad="MM_preloadImages('imagenes/estudio-viabilidad.jpg','imagenes/funcionamiento_interno_y_comunicacion_entre_clases.png','imagenes/esquema-herencia-soportes.gif','imagenes/herencia.png','imagenes/image21.jpg','imagenes/polimorfismo_medios_de_transporte.png','imagenes/clase_clasificacion_de_los_animales.png','imagenes/ESTUDIO.jpg')">
+<body onLoad="MM_preloadImages('imagenes/estudio-viabilidad.jpg','imagenes/funcionamiento_interno_y_comunicacion_entre_clases.png','imagenes/esquema-herencia-soportes.gif','imagenes/herencia.png','imagenes/image21.jpg','imagenes/polimorfismo_medios_de_transporte.png','imagenes/jerarquia.jpg','imagenes/clase_clasificacion_de_los_animales.png')">
 <div data-role="page" id="Principal" data-theme="a">
   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
     <h1>DSAUPO</h1>
@@ -291,6 +291,19 @@ ver más</a></p>
     <h2>Clase</h2>
      </a>
     </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#page7" class="ui-btn ui-btn-icon-right ui ui-icon-carat-r">
+    <h2>Abstracción</h2>
+     </a>
+     <a href="#page8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Encapsulamiento</h2>
+     </a>
+    </li>
+   <li class="ui-first-child ui-last-child">
+     <a href="#page9" class="ui-btn ui-btn-icon-right ui ui-icon-carat-r">
+    <h2> Herencia</h2>
+     </a>
+   </li>
     <li class="ui-first-child ui-last-child">
      <a href="#page10" class="ui-btn ui-btn-icon-right ui ui-icon-carat-r">
     <h2>Polimorfismo </h2>
@@ -373,7 +386,42 @@ Programación orientada a objetos POO</a>
   </div>
 </div>
 
-
+<div data-role="page" id="page7" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Abstraccion </h1>
+  </div>
+    <p align="center">La abstracción es una especificación del sistema que enfatiza sobre algunos de los detalles o propiedades del mismo mientras suprime a otros. Una buena abstracción es aquella que enfatiza sobre detalles significativos al lector y al usuario y suprime detalles que son al menos por el momento irrelevantes o que causan distracción.</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image74','','imagenes/clase_clasificacion_de_los_animales.png',1)"><img src="imagenes/abstraccion1.jpg" width="960" height="720" id="Image74"></a>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <h4> Monserrat Chantes Morales</h4>
+         <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+<div data-role="page" id="page8" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> Encapsulamiento</h1>
+  </div>
+    <div>
+    <p align="center">Es la cualidad de restringir el acceso y ocultar el proceso de cada uno de los datos miembro de una clase y sólo podrán cambiar mediante las operaciones definidas para ese espacio. El aislamiento protege contra la modificación y garantiza el flujo del programa. Una clase y un método funcionan como cápsula. En una pantalla, nosotros solo vemos la imagen, y no conocemos lo que se procese dentro,</p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/funcionamiento_interno_y_comunicacion_entre_clases.png',1)"><img src="imagenes/pantalla.jpg" width="90%" height="80%" id="Image26"></a></div>
+      
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <h4> Monserrat Chantes Morales</h4>
+         <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
+<div data-role="page" id="page9" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1> Herencia</h1>
+  </div>
+  <div><p align="center"> Es la propiedad de que unos objetos sean creados a partir de otros ya existentes en proporción a una relación entre una clase general y una más específica. <br> En la imagen se puede apreciar una superclase llamada Animales, que describe todos aquellos objetos animados clasificados como seres vivos, las subclases se encuentran en el segundo nivel y denotan características más específicas de los animales por su hábitat, estructura ósea, alimentación, etc. En la clase Acuáticos, podremos apreciar dos subclases, Ríos y Océanos. Un animal de Ríos tendrá las características de un animal Acuático heredando las características de la superclase Animal.</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image74','','imagenes/jerarquia.jpg',1)"><img src="imagenes/herencia.png" width="999" height="898" id="Image"></a></div>
+      
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+       <h4> Monserrat Chantes Morales</h4>
+         <img src="res/android/mdpi.png" width="56" height="46">
+   </div>
+</div>
 <div data-role="page" id="page10" data-theme="a">
   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
     <h1> Polimorfismo</h1>
@@ -398,18 +446,14 @@ Programación orientada a objetos POO</a>
       </ul>
     </div>
     <p align="justify">Es la capacidad de nombrar dos o más métodos con el mismo identificador pero definidas para diferentes propósitos. Lo único que hará la diferencia, son los parámetros que reciba    </p>
-    <div align="center">
-      <ul>
-        <li><b>Modularidad</b></li>
-      </ul>
-      <p align="justify">Consiste en dividir el programa en fracciones más pequeñas de código de nombre módulos. Cada módulo debe ser independiente de otro.</p>
-    <img src="imagenes/mod.jpg" width="80%" height="50%"> </div>
+    
     <div align="center">
       <ul>
         <li><B>Jerarquía</B></li>
       </ul>
       <p align="justify">Es una propiedad que permite ordenar las abstracciones.</p>
-    <img src="imagenes/jerarquia.jpg" width="100%" height="80%"></div>
+    <img src="imagenes/jerarquia.jpg" width="100%" height="80%">
+    </div>
     <div align="center">
       <ul>
         <li><B>Instancia</B></li>
