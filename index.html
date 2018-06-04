@@ -8,10 +8,6 @@
 <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
 <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
 
-<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-	<script type="text/javascript" src="engine1/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section -->
 
 <!-- grupo JavaScript-->
 <script src="js/jquery-1.11.2.min.js"></script>
@@ -21,63 +17,13 @@
 <script src="phonegap.js"></script><!-- necesario*/-->
 
 <script type="text/javascript">
-function MM_swapImgRestore() { //v3.0
-  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
-}
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-
-function MM_findObj(n, d) { //v4.01
-  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
-    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
-  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
-  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
-  if(!x && d.getElementById) x=d.getElementById(n); return x;
-}
-
-function MM_swapImage() { //v3.0
-  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
-   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
-}
 </script>
 </head>
-<body onLoad="MM_preloadImages('imagenes/estudio-viabilidad.jpg','imagenes/funcionamiento_interno_y_comunicacion_entre_clases.png','imagenes/esquema-herencia-soportes.gif','imagenes/herencia.png','imagenes/image21.jpg','imagenes/polimorfismo_medios_de_transporte.png','imagenes/jerarquia.jpg','imagenes/clase_clasificacion_de_los_animales.png')">
+<body>
 <div data-role="page" id="Principal" data-theme="a">
   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
     <h1>DSAUPO</h1>
   </div>
-  <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-<div id="wowslider-container1">
-<div class="ws_images"><ul>
-		<li><img src="data1/images/2010.png" alt="2010" title="2010" id="wows1_0"/></li>
-		<li><img src="data1/images/abstraccion.png" alt="abstraccion" title="abstraccion" id="wows1_1"/></li>
-		<li><img src="data1/images/abstraccion1.jpg" alt="abstraccion1" title="abstraccion1" id="wows1_2"/></li>
-		<li><img src="data1/images/admira_grafico.png" alt="admira_grafico" title="admira_grafico" id="wows1_3"/></li>
-		<li><img src="data1/images/ciclo.png" alt="CICLO" title="CICLO" id="wows1_4"/></li>
-		<li><img src="data1/images/clas1.png" alt="clas1" title="clas1" id="wows1_5"/></li>
-		<li><img src="data1/images/clase.png" alt="CLASE" title="CLASE" id="wows1_6"/></li>
-		<li><a href="http://wowslider.com/vi"><img src="data1/images/clase_clasificacion_de_los_animales.png" alt="bootstrap carousel" title="clase_clasificacion_de_los_animales" id="wows1_7"/></a></li>
-		<li><img src="data1/images/clase_coche.png" alt="clase_coche" title="clase_coche" id="wows1_8"/></li>
-	</ul></div>
-	<div class="ws_bullets"><div>
-		<a href="#" title="2010"><span><img src="data1/tooltips/2010.png" alt="2010"/>1</span></a>
-		<a href="#" title="abstraccion"><span><img src="data1/tooltips/abstraccion.png" alt="abstraccion"/>2</span></a>
-		<a href="#" title="abstraccion1"><span><img src="data1/tooltips/abstraccion1.jpg" alt="abstraccion1"/>3</span></a>
-		<a href="#" title="admira_grafico"><span><img src="data1/tooltips/admira_grafico.png" alt="admira_grafico"/>4</span></a>
-		<a href="#" title="CICLO"><span><img src="data1/tooltips/ciclo.png" alt="CICLO"/>5</span></a>
-		<a href="#" title="clas1"><span><img src="data1/tooltips/clas1.png" alt="clas1"/>6</span></a>
-		<a href="#" title="CLASE"><span><img src="data1/tooltips/clase.png" alt="CLASE"/>7</span></a>
-		<a href="#" title="clase_clasificacion_de_los_animales"><span><img src="data1/tooltips/clase_clasificacion_de_los_animales.png" alt="clase_clasificacion_de_los_animales"/>8</span></a>
-		<a href="#" title="clase_coche"><span><img src="data1/tooltips/clase_coche.png" alt="clase_coche"/>9</span></a>
-	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">jquery slider</a> by WOWSlider.com v8.7</div>
-<div class="ws_shadow"></div>
-</div>	
-<script type="text/javascript" src="engine1/wowslider.js"></script>
-<script type="text/javascript" src="engine1/script.js"></script>
-<!-- End WOWSlider.com BODY section -->
   <div data-role="main" class="ui-content">
   <div>
   <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
@@ -119,7 +65,7 @@ function MM_swapImage() { //v3.0
     <h1>Ciclo de vida de un sistema de información</h1>
   </div>
       <div>
-      <img src="imagenes/CICLO.png" width="100%" height="90%">
+    
 <div data-role="collapsible" data-theme="false">
       Planificación<br>
       Realizar una serie de tareas previas que influirán decisivamente en la finalización con    éxito del proyecto.</div>
@@ -185,7 +131,7 @@ La etapa de mantenimiento consume típicamente del 40 al 80 por ciento de los re
 <h1>Ciclo de Vida de un Sistema</h1>
 </div>
 <div data-role="content" align="center">
-  <img src="imagenes/vidadeunsistema.png" width="100%" height="80%"></div>
+  </div>
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
 <div>
 <img src="res/android/mdpi.png" width="56" height="46">
@@ -199,7 +145,7 @@ La etapa de mantenimiento consume típicamente del 40 al 80 por ciento de los re
 </div>
 <div data-role="content" align="center">
 <p align="center">Determinar los aspectos abarcados por el proyecto como fijar aquéllos aspectos que no se incluirán en el proyecto. Estos últimos han de indicarse explícitamente. Si es necesario, se puede especificar todo aquello que se posponga hasta una versión posterior del sistema.</p>
-<img src="imagenes/imagesCAE15214.jpg" width="90%" height="90%"> </div>
+ </div>
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
 <div>
 <img src="res/android/mdpi.png" width="56" height="46">
@@ -213,7 +159,7 @@ La etapa de mantenimiento consume típicamente del 40 al 80 por ciento de los re
 </div>
 <div data-role="content" align="center">
 <p align="center">Con recursos ilimitados (tiempo y dinero), casi cualquier proyecto se podría llevar a buen puerto. Por desgracia, en la vida real los recursos son más bien escasos, por lo que no todos los proyectos son viables.</p>
-<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/estudio_viabilidad.jpg',1)"><img src="imagenes/ESTUDIO.jpg" width="90%" height="70%" id="Image19"></a></div>
+</div>
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
 <div>
 <img src="res/android/mdpi.png" width="56" height="46">
@@ -227,7 +173,7 @@ La etapa de mantenimiento consume típicamente del 40 al 80 por ciento de los re
 </div>
 <div data-role="content" align="center">
 <p align="center">Siempre se produce algún contratiempo que eche por tierra la mejor de las planificaciones. Es algo inevitable con lo que hemos de vivir y para lo cual disponemos de una herramienta extremadamente útil: la gestión de riesgos, que tradicionalmente se descompone en evaluación de riesgos y control de riesgos.</p>
-<img src="imagenes/admira_grafico.png" width="90%" height="70%">
+
 </div>
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
   <div>
@@ -302,7 +248,7 @@ ver más</a></p>
     <p align="center">
 <a href="https://www.youtube.com/watch?v=zt29PaBvyTw&t=235s" target="_self">
 Programación orientada a objetos POO</a></p>
-    <img src="imagenes/2010.png" width="100%" height="70%"> </div>
+</div>
  
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
     <h4> Monserrat Chantes Morales</h4>
@@ -315,7 +261,7 @@ Programación orientada a objetos POO</a></p>
   </div>
     <div>
     <p align="center">Un objeto contiene toda la información que permite definirlo e identificarlo frente a otros objetos pertenecientes a otras clases e incluso frente a objetos de una misma clase, al poder tener valores bien diferenciados en sus atributos. </p>
-    <img src="imagenes/objeto.jpg" width="100%" height="80%" >
+    
 <div data-role="main" class="ui-content">
   <div data-role="collapsible" data-theme="false">
  <h1>OBJETO</h1>
@@ -344,8 +290,7 @@ Programación orientada a objetos POO</a>
     <h1> Clase</h1>
   </div>
       <p align="center"> Una clase se puede definir de las propiedades y comportamiento de un tipo de objeto concreto. La instanciación es la lectura de estas definiciones y la creación de un objeto a partir de ella.</p>
-      <img src="imagenes/CLASE.png" width="100%" height="90%">
-      <img src="imagenes/clas1.png" width="100%" height="90%">
+      
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
     <h4> Monserrat Chantes Morales</h4>
          <img src="res/android/mdpi.png" width="56" height="46">
@@ -356,7 +301,6 @@ Programación orientada a objetos POO</a>
     <h1>Abstraccion </h1>
   </div>
     <p align="center">La abstracción es una especificación del sistema que enfatiza sobre algunos de los detalles o propiedades del mismo mientras suprime a otros. Una buena abstracción es aquella que enfatiza sobre detalles significativos al lector y al usuario y suprime detalles que son al menos por el momento irrelevantes o que causan distracción.</p>
-   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image74','','imagenes/clase_clasificacion_de_los_animales.png',1)"><img src="imagenes/abstraccion1.jpg" width="960" height="720" id="Image74"></a>
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
     <h4> Monserrat Chantes Morales</h4>
          <img src="res/android/mdpi.png" width="56" height="46">
@@ -368,7 +312,7 @@ Programación orientada a objetos POO</a>
   </div>
     <div>
     <p align="center">Es la cualidad de restringir el acceso y ocultar el proceso de cada uno de los datos miembro de una clase y sólo podrán cambiar mediante las operaciones definidas para ese espacio. El aislamiento protege contra la modificación y garantiza el flujo del programa. Una clase y un método funcionan como cápsula. En una pantalla, nosotros solo vemos la imagen, y no conocemos lo que se procese dentro,</p>
-    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/funcionamiento_interno_y_comunicacion_entre_clases.png',1)"><img src="imagenes/pantalla.jpg" width="90%" height="80%" id="Image26"></a></div>
+    </div>
       
    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
        <h4> Monserrat Chantes Morales</h4>
@@ -380,7 +324,7 @@ Programación orientada a objetos POO</a>
     <h1> Herencia</h1>
   </div>
   <div><p align="center"> Es la propiedad de que unos objetos sean creados a partir de otros ya existentes en proporción a una relación entre una clase general y una más específica. <br> En la imagen se puede apreciar una superclase llamada Animales, que describe todos aquellos objetos animados clasificados como seres vivos, las subclases se encuentran en el segundo nivel y denotan características más específicas de los animales por su hábitat, estructura ósea, alimentación, etc. En la clase Acuáticos, podremos apreciar dos subclases, Ríos y Océanos. Un animal de Ríos tendrá las características de un animal Acuático heredando las características de la superclase Animal.</p>
-  <img src="imagenes/herencia.png" width="90%" height="80%"></div>
+  </div>
       
    <div data-role="footer" align="center" data-theme="a" data-position="fixed">
        <h4> Monserrat Chantes Morales</h4>
@@ -392,7 +336,7 @@ Programación orientada a objetos POO</a>
     <h1> Polimorfismo</h1>
   </div>
     <div><p align="center">Es la capacidad de crear objetos con diferentes formas donde la clase se comporta como una entidad donde puede procesar diferentes valores durante la ejecución del programa. </p>
-      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('v','','imagenes/polimorfismo_medios_de_transporte.png',1)"><img src="imagenes/clase_coche.png" width="100%" height="70%" id="v"></a>     
+          
     </div>
 <div data-role="footer" align="center" data-theme="a" data-position="fixed">
     <h4> Monserrat Chantes Morales</h4>
@@ -415,26 +359,26 @@ Programación orientada a objetos POO</a>
         <li><b>Modularidad</b></li>
       </ul>
       <p align="justify">Consiste en dividir el programa en fracciones más pequeñas de código de nombre módulos. Cada módulo debe ser independiente de otro.</p>
-    <img src="imagenes/mod.jpg" width="80%" height="50%">
+    
      </div>
     <div align="center">
       <ul>
         <li><b>Jerarquía</b></li>
       </ul>
       <p align="justify">Es una propiedad que permite ordenar las abstracciones.</p>
-    <img src="imagenes/jerarquia.jpg" width="100%" height="80%"></div>
+    </div>
     <div align="center">
       <ul>
         <li><b>Instancia</b></li>
       </ul>
       <p align="justify">Una instancia es la declaración de un medio por el que se accederán a los datos miembro permitidos de una clase desde fuera de ésta. Un objeto es una instancia de una clase y se pueden tener muchas al mismo tiempo con características propias.</p>
-    <img src="imagenes/instancias_base_datos.png" width="100%" height="80%"></div>
+    </div>
     <div align="center">
       <ul>
         <li><b>Relaciones entre clases</b></li>
       </ul>
       <p align="justify">Se refiere a los mensajes que se comparten entre dos clases y la comunicación entre los objetos. Las relaciones pueden ser de uno a uno, uno a muchos, muchos a uno y muchos a muchos</p>
-    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','imagenes/image21.jpg',1)"><img src="imagenes/relaciones.jpg" width="90%" height="70%" id="Image35"></a> </div>
+     </div>
     
     
   </div>
@@ -456,7 +400,7 @@ Programación orientada a objetos POO</a>
             <td>Nombre del alumno</td>
             <td class="table-stripe"> 
      
-     <img src="imagenes/21414734_853445128137262_7567012693783098173_o.jpg" width="70%" height="20%">
+     
      <p> Chantes Morales Monserrat</p>
      
             </td>
